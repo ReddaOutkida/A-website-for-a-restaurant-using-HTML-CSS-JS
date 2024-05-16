@@ -1,0 +1,250 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #fffbf0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  .section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .primary {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .secondary {
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .tertiary {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 14px 20px;
+    background: #E5543C;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 0;
+  }
+
+  /* NAV */
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: #fffbf0;
+    position: fixed;  
+    top: 0;
+    color: black;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    padding-top: 1%;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    
+  }
+.menu ul a:hover {
+  border-bottom: 3px solid #E5543C;
+  transition: 0.3s;
+}
+/* END NAV */
+
+/* HERO SECTION */
+#hero-section {
+    background: #fff5f2;
+    margin-top: 60px;
+  }
+  
+  .text,
+  .visual {
+    width: 50%;
+  }
+  
+  .text {
+    margin: 0 20px;
+  }
+  
+  .visual img {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 20%;
+  }
+  
+  #hero-section .text {
+    margin-left: 30px;
+  }
+  
+  #hero-section .visual img {
+    margin-left: auto;
+  }
+
+/* END HERO SECTION */
+
+/* Restaurant Menu */
+.slogan {
+  list-style: none;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  background-color: #E5543C; 
+}
+
+.restaurant-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.menu-item {
+  width: 260px;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.menu-item img {
+  width: 100%;
+}
+
+.order {
+  justify-content: space-between;
+}
+
+.btn-menu {
+  padding: 6px 10px;
+  font-size: 16px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+.types {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* End Menu */
+
+/* Testimonial */
+
+#testimonial .visual img {
+  margin-left: auto;
+}
+
+.user {
+  margin-top: 30px;
+  justify-content: start;
+}
+
+.user img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* End Testimonial */
+
+/* Footer */
+body{
+  margin:0;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+  background:#E5543C;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:rgb(255, 255, 255);
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+
+/* End Footer */
+/* UP */
+
+/* End Up */
+
+
